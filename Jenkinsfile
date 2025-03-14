@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-//    stages {
+   stages {
 //        stage('Clone Repository') {
 //            steps {
 //                checkout([$class: 'GitSCM', 
@@ -36,4 +36,5 @@ pipeline {
             error 'Pipeline failed'
         }
     }
+}
 
